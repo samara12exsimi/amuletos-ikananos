@@ -1,0 +1,144 @@
+/*--------------------------------------------------------------
+# Pulse - October 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+div#horiz-menu{
+	position: relative;
+	width: auto;	
+	
+}
+div#horiz-menu li.level1 {
+	line-height: 32px;
+}
+div#horiz-menu li.level1 a,
+div#horiz-menu li.level1 span {
+	display: block;
+	width: auto;
+	height: 32px;
+	line-height: 32px;
+}
+div#horiz-menu li.level1 span {
+	padding-right: 17px;
+}
+div#horiz-menu li a{
+	
+	font-weight: bold;
+}
+div#horiz-menu li a:hover{
+	text-decoration: none !important;
+}
+div#horiz-menu li{
+	height: 32px;
+}
+div#horiz-menu ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	height: 32px;
+}
+div#horiz-menu ul ul{
+	height: 32px;
+}
+div#horiz-menu ul li,
+div#horiz-menu ul ul li{
+	float: left;
+	margin: 0 auto 0 0;
+	padding: 0 0 0 19px;
+}
+div#horiz-menu ul ul ul li:first-child,
+div#horiz-menu ul ul ul ul li:first-child,
+div#horiz-menu ul ul ul ul ul li:first-child,
+div#horiz-menu ul ul ul ul ul ul li:first-child,
+div#horiz-menu ul ul ul ul ul ul ul li:first-child{
+	padding-left: 0px!important;
+}
+div#horiz-menu ul ul{
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	display: none;
+	z-index: 1000;
+}
+div#horiz-menu ul ul ul li span{
+	padding-left: 19px;
+}
+div#horiz-menu ul ul ul,
+div#horiz-menu ul ul ul ul,
+div#horiz-menu ul ul ul ul ul,
+div#horiz-menu ul ul ul ul ul ul{
+	width: auto;
+}
+div#horiz-menu li:hover ul,
+div#horiz-menu ul li:hover ul{
+	display: block;
+}
+div#horiz-menu ul ul ul{
+	width: 210px;
+}
+div#horiz-menu ul ul ul ul, 
+div#horiz-menu ul ul ul ul ul,
+div#horiz-menu ul ul ul ul ul ul{
+	width: 210px;
+	position: absolute;
+}
+div#horiz-menu ul ul ul li{
+	float: none;
+	width: 210px;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	z-index: 5000;
+}
+div#horiz-menu li li a,
+div#horiz-menu li li a:hover,
+div#horiz-menu li li span,
+div#horiz-menu li li span:hover,
+div#horiz-menu li li{
+	height: 32px !important;
+}
+div#horiz-menu li li li{
+	float: left;
+}
+div#horiz-menu li li{
+	position: relative;
+}
+div#horiz-menu li li ul {
+	left:-999em;
+	position: absolute;
+	float: none;
+}
+div#horiz-menu li li li ul {
+	left:-999em;
+	position: absolute;
+}
+div#horiz-menu li li:hover ul {
+	left:0px!important;
+	top: 32px!important;
+	position: absolute;
+}
+div#horiz-menu li li:hover li ul,
+div#horiz-menu li li li:hover li ul,
+div#horiz-menu li li li li:hover li ul,
+div#horiz-menu li li li li li:hover li ul{
+	display: none;
+}
+div#horiz-menu li li li:hover ul,
+div#horiz-menu li li li li:hover ul,
+div#horiz-menu li li li li li:hover ul,
+div#horiz-menu li li li li li li:hover ul {
+	left:210px!important;
+	top: 0px!important;
+	position: absolute;
+	display: block;
+}
+div#horiz-menu li:hover li ul,
+div#horiz-menu li li:hover li ul,
+div#horiz-menu li li li:hover li ul,
+div#horiz-menu li li li li:hover li ul {
+	top:-999em;
+}

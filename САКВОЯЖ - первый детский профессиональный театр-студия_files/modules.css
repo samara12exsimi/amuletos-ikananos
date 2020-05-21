@@ -1,0 +1,332 @@
+/*--------------------------------------------------------------
+# The World News - December 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------*/
+
+div.moduletable,
+div.moduletable_menu,
+div.moduletable_text,
+div.moduletable_ver1,
+div.moduletable_ver2,
+div.moduletable_ver2a,
+div.moduletable_ver2b,
+div.moduletable_ver3,
+div.moduletable_ver3a,
+div.moduletable_ver3b,
+div.moduletable_ver4,
+div.moduletable_ver4a,
+div.moduletable_ver4b {
+	margin: 0 0 20px;
+	position: relative;
+}
+div.moduletable h3,
+div.moduletable_menu h3,
+div.moduletable_text h3 {
+	border: 1px solid #eaeaea;
+	font-weight: bold;
+	text-transform:uppercase;
+	margin: 0 0 12px;
+	height: 30px;
+	line-height: 31px;
+	overflow: hidden;
+	background: url('../images/module_sprite.png') repeat-x 0 -30px;
+}
+div.moduletable h3 span,
+div.moduletable_menu h3 span,
+div.moduletable_text h3 span {
+	display: block;
+	height: 30px;
+	margin-left: 4px;
+	padding: 0 6px;
+}
+/* 
+ * Moduletable_ver1, _ver2, _ver3 
+ */
+ 
+div.moduletable_ver1 h3,
+div.moduletable_ver2 h3,
+div.moduletable_ver2a h3,
+div.moduletable_ver2b h3,
+div.moduletable_ver3 h3,
+div.moduletable_ver3a h3,
+div.moduletable_ver3b h3 {
+	border: none;
+	font-weight: bold;
+	text-transform:uppercase;
+	margin: 0 0 12px;
+	overflow: hidden;
+	background: url('../images/module_sprite.png') repeat-x 0 -6px;
+}
+div.moduletable_ver2 h3,
+div.moduletable_ver2a h3,
+div.moduletable_ver2b h3,
+div.moduletable_ver3 h3,
+div.moduletable_ver3a h3,
+div.moduletable_ver3b h3 {
+	background: none;
+	border-top: 1px solid #e0e0e0;
+	padding-top: 6px;
+}
+div.moduletable_ver3 h3 {
+	border-top: 4px solid #e0e0e0;
+}
+div.moduletable_ver1 h3 span,
+div.moduletable_ver2 h3 span,
+div.moduletable_ver3 h3 span {
+	background: #fff;
+	padding-right:12px;
+}
+/* 
+ * moduletable suffix: _ver4 
+ */
+ 
+div.moduletable_ver4 {
+	padding: 10px;
+}
+div.moduletable_ver4a {
+	background: #f9f9f9;
+	border: 1px solid #eee;
+	padding: 10px;
+}
+div.moduletable_ver4b {
+	padding: 10px;
+}
+div.moduletable_ver4 h3,
+div.moduletable_ver4a h3,
+div.moduletable_ver4b h3 {
+	font-weight: bold;
+	text-transform:uppercase;
+	margin: 0 0 12px;
+	overflow: hidden;
+}
+/*
+ * Bottom and current wrap section - modules
+ */
+#gk_bottom div.moduletable h3,
+#gk_bottom div.moduletable_menu h3,
+#gk_bottom div.moduletable_text h3,
+#gk_bottom div.moduletable_ver1 h3,
+#gk_bottom div.moduletable_ver2 h3,
+#gk_bottom div.moduletable_ver2a h3,
+#gk_bottom div.moduletable_ver2b h3 {
+	background: none;
+	border:none;
+	border-top: 1px solid #e0e0e0;
+	padding: 12px 0 0;
+	line-height: normal;
+	height:18px;
+}
+#gk_bottom div.moduletable_ver3 h3,
+#gk_bottom div.moduletable_ver3a h3,
+#gk_bottom div.moduletable_ver3b h3 {
+	padding: 7px 0 0;
+}
+#gk_bottom div.moduletable_ver4 h3,
+#gk_bottom div.moduletable_ver4a h3,
+#gk_bottom div.moduletable_ver4b h3 {
+	padding:0;
+}
+#gk_bottom div.moduletable h3 span,
+#gk_bottom div.moduletable_menu h3 span,
+#gk_bottom div.moduletable_text h3 span {
+	margin-left:0;
+	padding-left: 0;
+}
+#gk_bottom div.moduletable,
+#gk_bottom div.moduletable_menu,
+#gk_bottom div.moduletable_text,
+#gk_bottom div.moduletable_ver1,
+#gk_bottom div.moduletable_ver2,
+#gk_bottom div.moduletable_ver2a,
+#gk_bottom div.moduletable_ver2b,
+#gk_bottom div.moduletable_ver3,
+#gk_bottom div.moduletable_ver3a,
+#gk_bottom div.moduletable_ver3b,
+#current_bottom div.moduletable,
+#current_bottom div.moduletable_menu,
+#current_bottom div.moduletable_text,
+#current_bottom div.moduletable_ver1,
+#current_bottom div.moduletable_ver2,
+#current_bottom div.moduletable_ver2a,
+#current_bottom div.moduletable_ver2b,
+#current_bottom div.moduletable_ver3,
+#current_bottom div.moduletable_ver3a,
+#current_bottom div.moduletable_ver3b,
+#current_top div.moduletable,
+#current_top div.moduletable_menu,
+#current_top div.moduletable_text,
+#current_top div.moduletable_ver1,
+#current_top div.moduletable_ver2,
+#current_top div.moduletable_ver2a,
+#current_top div.moduletable_ver2b,
+#current_top div.moduletable_ver3,
+#current_top div.moduletable_ver3a,
+#current_top div.moduletable_ver3b {
+	margin:0 10px 20px 0;
+	border-right: 1px solid #e0e0e0;
+	padding: 0 10px 0 0;
+}
+#gk_bottom div.moduletable_ver4,
+#gk_bottom div.moduletable_ver4a,
+#gk_bottom div.moduletable_ver4b,
+#current_bottom div.moduletable_ver4,
+#current_bottom div.moduletable_ver4a,
+#current_bottom div.moduletable_ver4b,
+#current_top div.moduletable_ver4,
+#current_top div.moduletable_ver4a,
+#current_top div.moduletable_ver4b {
+	margin:0 10px 20px 0;
+	padding: 10px;
+}
+#gk_bottom .last-child div.moduletable,
+#gk_bottom .last-child div.moduletable_menu,
+#gk_bottom .last-child div.moduletable_text,
+#gk_bottom .last-child div.moduletable_ver1,
+#gk_bottom .last-child div.moduletable_ver2,
+#gk_bottom .last-child div.moduletable_ver2a,
+#gk_bottom .last-child div.moduletable_ver2b,
+#gk_bottom .last-child div.moduletable_ver3,
+#gk_bottom .last-child div.moduletable_ver3a,
+#gk_bottom .last-child div.moduletable_ver3b,
+#current_bottom .last-child div.moduletable,
+#current_bottom .last-child div.moduletable_menu,
+#current_bottom .last-child div.moduletable_text,
+#current_bottom .last-child div.moduletable_ver1,
+#current_bottom .last-child div.moduletable_ver2,
+#current_bottom .last-child div.moduletable_ver2a,
+#current_bottom .last-child div.moduletable_ver2b,
+#current_bottom .last-child div.moduletable_ver3,
+#current_bottom .last-child div.moduletable_ver3a,
+#current_bottom .last-child div.moduletable_ver3b,
+#current_top .last-child div.moduletable,
+#current_top .last-child div.moduletable_menu,
+#current_top .last-child div.moduletable_text,
+#current_top .last-child div.moduletable_ver1,
+#current_top .last-child div.moduletable_ver2,
+#current_top .last-child div.moduletable_ver2a,
+#current_top .last-child div.moduletable_ver2b,
+#current_top .last-child div.moduletable_ver3,
+#current_top .last-child div.moduletable_ver3a,
+#current_top .last-child div.moduletable_ver3b {
+	margin-right: 0;
+	border: none;
+	padding: 0;
+}
+#gk_bottom .last-child div.moduletable_ver4,
+#gk_bottom .last-child div.moduletable_ver4a,
+#gk_bottom .last-child div.moduletable_ver4b,
+#current_bottom .last-child div.moduletable_ver4,
+#current_bottom .last-child div.moduletable_ver4a,
+#current_bottom .last-child div.moduletable_ver4b,
+#current_top .last-child div.moduletable_ver4,
+#current_top .last-child div.moduletable_ver4a,
+#current_top .last-child div.moduletable_ver4b {
+	margin-right: 0;
+}
+/*
+ * Content section
+ */
+ 
+.users_wrap div.moduletable,
+.users_wrap div.moduletable_menu,
+.users_wrap div.moduletable_text,
+.users_wrap div.moduletable_ver1,
+.users_wrap div.moduletable_ver2,
+.users_wrap div.moduletable_ver2a,
+.users_wrap div.moduletable_ver2b,
+.users_wrap div.moduletable_ver3,
+.users_wrap div.moduletable_ver3a,
+.users_wrap div.moduletable_ver3b,
+.users_wrap div.moduletable_ver4,
+.users_wrap div.moduletable_ver4a,
+.users_wrap div.moduletable_ver4b {
+	margin: 0 10px 20px;
+    
+}
+.users_wrap .last-child div.moduletable,
+.users_wrap .last-child div.moduletable_menu,
+.users_wrap .last-child div.moduletable_text,
+.users_wrap .last-child div.moduletable_ver1,
+.users_wrap .last-child div.moduletable_ver2,
+.users_wrap .last-child div.moduletable_ver2a,
+.users_wrap .last-child div.moduletable_ver2b,
+.users_wrap .last-child div.moduletable_ver3,
+.users_wrap .last-child div.moduletable_ver3a,
+.users_wrap .last-child div.moduletable_ver3b,
+.users_wrap .last-child div.moduletable_ver4,
+.users_wrap .last-child div.moduletable_ver4a,
+.users_wrap .last-child div.moduletable_ver4b {
+	margin-right: 0;
+}
+/* 
+ * Badge Module 
+ */
+ 
+div.moduletable h3 span.badge,
+div.moduletable_menu h3 span.badge,
+div.moduletable_text h3 span.badge,
+div.moduletable_ver1 h3 span.badge,
+div.moduletable_ver2 h3 span.badge,
+div.moduletable_ver2a h3 span.badge,
+div.moduletable_ver2b h3 span.badge,
+div.moduletable_ver3 h3 span.badge,
+div.moduletable_ver3a h3 span.badge,
+div.moduletable_ver3b h3 span.badge,
+div.moduletable_ver4 h3 span.badge,
+div.moduletable_ver4a h3 span.badge,
+div.moduletable_ver4b h3 span.badge {
+	height: 13px;
+	width:44px;
+	position: absolute;
+	right: 10px;
+	top: 11px;
+	padding: 0;
+}
+div.moduletable_ver2 h3 span.badge,
+div.moduletable_ver2a h3 span.badge,
+div.moduletable_ver2b h3 span.badge {
+	top: 11px;
+}
+div.moduletable_ver3 h3 span.badge,
+div.moduletable_ver3a h3 span.badge,
+div.moduletable_ver3b h3 span.badge {
+	top: 13px;
+}
+div.moduletable_ver4 h3 span.badge,
+div.moduletable_ver4a h3 span.badge,
+div.moduletable_ver4b h3 span.badge {
+	top: 14px;
+}
+div.moduletable h3 span.badge,
+div.moduletable_menu h3 span.badge,
+div.moduletable_text h3 span.badge,
+div.moduletable_ver1 h3 span.badge,
+div.moduletable_ver2 h3 span.badge,
+div.moduletable_ver2a h3 span.badge,
+div.moduletable_ver2b h3 span.badge,
+div.moduletable_ver3 h3 span.badge,
+div.moduletable_ver3a h3 span.badge,
+div.moduletable_ver3b h3 span.badge,
+div.moduletable_ver4 h3 span.badge,
+div.moduletable_ver4a h3 span.badge,
+div.moduletable_ver4b h3 span.badge {
+	background: url('../images/mod_badge.png') no-repeat;
+}
+.b-new .badge {
+	background-position: 0 0!important;
+}
+.b-hot .badge {
+	background-position: 0 -13px!important;
+}
+.b-top .badge {
+	background-position: 0 -26px!important;
+}
+.b-popular .badge {
+	background-position: 0 -39px!important;
+}
+.b-updated .badge {
+	background-position: 0 -52px!important;
+}

@@ -1,0 +1,144 @@
+/* CSS */
+
+div#gk_wrapper{
+	margin: 0 auto;
+}
+	div#gk_header{
+		/* margin: 0 auto; */
+	}
+	div#gk_mainbody{
+		/* margin: 0 auto; */
+		position:relative;
+	}
+		div#gk_mainbody_wrap{}
+			div#gk_left{}
+				div#gk_left_wrap{}
+					div#left_top{}
+					div#left_col{}
+						div#left_one{
+							float:left;
+						}
+						div#left_two{
+							float:left;
+						}
+					div#left_bottom{}
+			div#gk_content{}
+				div#gk_content_top{}
+					
+				div#gk_content_wrap{}
+					div#inset_left{
+						float:left;
+					}
+						div#inset_left_wrap{}
+					div#gk_current{
+						float:left;
+					}
+						div#gk_current_wrap{}
+							div#current_top{}
+							
+							div#component_wrap{}
+								div#component{margin-top: 6px;}
+								div#mainbody{}
+								
+							div#current_bottom{}
+							
+					div#inset_right{
+						float:left;
+					}
+						div#inset_right_wrap{}
+							
+				div#gk_content_bottom{}
+					
+			div#gk_right{}
+				div#gk_right_wrap{}
+					div#right_top{}
+					div#right_col{}
+						div#right_one{
+							float:left;
+						}
+						div#right_two{
+							float:left;
+						}
+						
+					div#right_bottom{}	
+						
+	div#gk_bottom{
+		/* margin: 0 auto; */
+	}
+		div#gk_bottom1{}
+		div#gk_bottom2{}
+		
+	div#gk_footer{
+		/* margin: 0 auto; */
+	}
+		div#footer_menu{}
+		div#informations{}
+
+/* skeletons */
+/* left */
+.left_column div#gk_left{
+	float:left;
+}
+.left_column div#gk_content{
+	float:right;
+}
+/* right */
+.right_column div#gk_right{
+	float:right;
+}
+.right_column div#gk_content{
+	float:left;
+}
+/* both */
+.both_columns div#gk_left{
+	float:left;
+}
+.both_columns div#gk_right{
+	float:left;
+}
+.both_columns div#gk_content{
+	float:left;
+}
+
+/* two columns left */
+.two_columns_left div#gk_left{
+	float:left;
+}
+.two_columns_left div#gk_right{
+	float:left;
+}
+.two_columns_left div#gk_content{
+	float:right;
+}
+
+/* two columns right */
+.two_columns_right div#gk_left{
+	float:left;
+}
+.two_columns_right div#gk_right{
+	float:right;
+}
+.two_columns_right div#gk_content{
+	float:left;
+}
+	
+/* additional classes */
+.column{}
+.module_wrap{}
+.users_wrap{}
+.helper{
+	float:left;
+}
+/* module dimensions */
+.us_width{
+	float:left;
+}
+
+.us_width-100 { width:100%;  }
+.us_width-50  { width:50%;   }
+.us_width-33  { width:33.3%; }
+.us_width-25  { width:25%;   }
+.us_width-20  { width:20%;   }
+.us_width-16  { width:16.6%; }
+.us_width-14  { width:14.2%; }
+.us_width-12  { width:12.5%; }

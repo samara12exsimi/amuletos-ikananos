@@ -1,0 +1,78 @@
+var isExtended = 0;
+var height = 300;
+var width = 180;
+var slideDuration = 700;
+var opacityDuration = 700;
+
+function extendContract(){
+	var myEffects2 = new Fx.Styles('samisideBar', {duration: slideDuration, transition: Fx.Transitions.linear});
+	if(isExtended == 0){
+		
+		sideBarSlide(0, height, 0, width);
+		
+		sideBarOpacity(0, 1);
+		sideBarpadding(0,20);
+		formOpacity(0, 1);
+		myEffects2.custom({
+			 'height': [137, 340],
+			 'width': [35, 250]
+		});
+		isExtended = 1;
+		
+		// make expand tab arrow image face left (inwards)
+		$('sideBarTab').childNodes[0].src = $('sideBarTab').childNodes[0].src.replace(/(\.[^.]+)$/, '-active$1');
+		
+	}
+	else{
+		
+		sideBarSlide(height, 0, width, 0);
+		
+		sideBarOpacity(1, 0);
+		sideBarpadding(20,0);
+		formOpacity(1, 0);
+		myEffects2.custom({
+			 'height': [240, 137],
+			 'width': [250, 35]
+		});
+		
+		isExtended = 0;
+		
+		// make expand tab arrow image face right (outwards)
+		
+		$('sideBarTab').childNodes[0].src = $('sideBarTab').childNodes[0].src.replace(/-active(\.[^.]+)$/, '$1');
+	}
+
+}
+
+function sideBarSlide(fromHeight, toHeight, fromWidth, toWidth){
+		var myEffects = new Fx.Styles('sideBarContents', {duration: slideDuration, transition: Fx.Transitions.linear});
+		myEffects.custom({
+			 'height': [fromHeight, toHeight],
+			 'width': [fromWidth, toWidth]
+		});
+		
+}
+
+function sideBarOpacity(from, to){
+		var myEffects = new Fx.Styles('sideBarContents', {duration: opacityDuration, transition: Fx.Transitions.linear});
+		myEffects.custom({
+			 'opacity': [from, to]
+		});
+}
+function sideBarpadding(from, to){
+		var myEffects = new Fx.Styles('sideBarContents', {duration: opacityDuration, transition: Fx.Transitions.linear});
+		myEffects.custom({
+			 'padding': [from, to]
+		});
+}
+function formOpacity(from, to){
+		var myEffects = new Fx.Styles('samiform', {duration: opacityDuration, transition: Fx.Transitions.linear});
+		myEffects.custom({
+			 'opacity': [from, to]
+		});
+}
+function init(){
+	$('sideBarTab').addEvent('click', function(){extendContract()});
+}
+
+window.addEvent('load', function(){init()});

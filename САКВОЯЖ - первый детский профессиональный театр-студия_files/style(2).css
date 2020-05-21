@@ -1,0 +1,10 @@
+#samisideBar{z-index:999;position: fixed;width: 35px;height: 137px;top: 100px;right:-7px;background-image:url(../images/background.gif);background-position:top left;background-repeat:repeat-y;}
+#samisideBar form{z-index:999;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}
+#samisideBar a{z-index:999;color:#ccc}
+#samisideBar fieldset{z-index:999;width:160px;padding:5px;margin:0;border:none;}
+#samisideBar ul{z-index:999;width:150px;padding:0;}
+#samisideBar label{z-index:999;color: #fff;}
+#sideBarTab{z-index:999;float:left;height:137px;width:28px;}
+#sideBarTab img{z-index:999;border:0px solid #FFFFFF;}
+#sideBarContents{z-index:999;overflow:hidden !important;}	
+#sideBarContentsInner{z-index:999;width:250px;}

@@ -1,0 +1,462 @@
+/*---------------------------------------------------------------
+# The World News - December 2009 (for Joomla 1.5)
+# Copyright (C) 2007-2009 Gavick.com. All Rights Reserved.
+# License: Copyrighted Commercial Software
+# Website: http://www.gavick.com
+# Support: support@gavick.com  
+---------------------------------------------------------------- */
+
+/* 
+ * Joomla style (based on the GNU/GPLv2 overrides from Yootheme)
+ */
+
+div.joomla div.description {
+	margin: 10px 0px;
+	overflow: hidden;
+}
+div.joomla div.description img.left {
+	margin-right: 15px;
+	float: left;
+}
+div.joomla div.description img.right {
+	margin-left: 15px;
+	float: right;
+}
+div.joomla div.filter { margin: 10px 0px; }
+div.joomla th {
+	padding:7px;
+	background:#f3f3f3;
+	border-top: 1px solid #eaeaea;
+	border-bottom: 1px solid #ddd;
+	font-weight : bold;
+}
+div.joomla tr.even td,
+div.joomla tr.odd td {
+	padding: 7px;
+	background: #fff;
+	border-bottom: 1px solid #eaeaea;
+}
+div.joomla tr.even td { background: #f7f7f7; }
+div.joomla span.number {
+	color: #969696;
+	font-style: italic;
+}
+/* 
+ * floats 
+ */
+ 
+div.joomla .float-left {
+	float: left;
+	overflow: hidden;
+}
+div.joomla .float-right {
+	float: right;
+	overflow: hidden;
+}
+div.joomla .width25 { width: 24.999%; }
+div.joomla .width33 { width: 33.333%; }
+div.joomla .width50 { width: 49.999%; }
+div.joomla .width100 { width: 100%; }
+div.date,
+div.icons,
+div.comments,
+span.author {
+	float: left;
+	margin: 8px 12px 4px 0;
+	padding:5px 0 5px 12px;
+	border-left: 1px solid #e0e0e0;
+}
+div.date {
+	border: none;
+	padding-left: 0;
+}
+.img_caption.right p, .img_caption.left p, .img_caption.center p { color: #666; font-size: 0.9em;padding-top:3px;}
+/* 
+ *com_content: blog 
+ */
+ 
+div.joomla div.blog div.description {
+	margin: 10px 0px 15px 0px;
+	padding-bottom: 20px;
+	border-bottom: 1px #c8c8c8 dotted;
+}
+div.joomla div.leadingarticles { overflow: hidden; }
+div.joomla div.teaserarticles { overflow: hidden; }
+div.joomla div.item { margin-bottom: 15px; }
+div.joomla div.item-bg {
+	padding: 0px;
+	border-bottom: 1px #c8c8c8 dotted;
+	overflow: hidden;
+}
+div.joomla div.multicolumns div.item { margin: 0px 15px 15px 15px; }
+div.joomla div.multicolumns div.first div.item { margin-left: 0px; }
+div.joomla div.multicolumns div.last div.item { margin-right: 0px; }
+div.joomla div.morearticles { margin: 10px 0px 10px 0px; }
+/* 
+ *com_content: blog,sectionlist, categorylist, article 
+ */
+
+div.joomla div.headline { 
+        overflow: hidden; 
+        border-bottom: 1px solid #D2DADB;
+        margin-bottom: 10px;
+}
+div.joomla h1.title {
+	width: auto;
+	float: left;
+	font-size: 220%!important;
+	line-height: normal;
+	font-weight: bold;
+}
+div.joomla h1.pagetitle {
+	font-size: 260%!important;
+	line-height: normal;
+	font-weight: normal;
+	margin: 10px 0px 20px;
+        padding-left: 20px;
+        background: #003366;
+        color: #e0e0e0;
+}
+div.joomla div.multicolumns h1.title {
+	font-size: 200%!important;
+	line-height: normal;
+	font-weight: normal;
+}
+div.joomla span.icon {
+	display: block;
+	padding:4px;
+	float: left;
+}
+div.joomla div.multicolumns span.icon { padding:4px; }
+div.joomla span.edit {
+	margin-left: 10px;
+	float: left;
+}
+div.joomla span.pdf { margin-right: 5px; }
+div.joomla span.print { margin-right: 5px; }
+div.articleinfo {
+	text-transform:uppercase;
+	font-size: 0.85em;
+	color: #666;
+}
+div.date span { float: left; }
+div.date span.created { clear: both; }
+div.date span strong {
+	font-weight: normal;
+}
+/* 
+ * com_content:  edit-article 
+ */
+
+div.joomla div.edit-article fieldset { margin-bottom: 30px; }
+div.joomla div.edit-article fieldset div { overflow: hidden; }
+div.joomla div.edit-article label.label-left {
+	display: block;
+	width: 150px;
+	float: left;
+}
+div.joomla div.edit-article div.save {
+	margin: 0px;
+	float: right;
+}
+div.joomla div.edit-article div#editor-xtd-buttons {
+	margin-bottom: 0px;
+	overflow: hidden;
+}
+div.joomla div.edit-article div#editor-xtd-buttons div { margin: 0px; }
+div.joomla div.edit-article div#editor-xtd-buttons div.button2-left { margin-right: 5px; }
+div.joomla div.edit-article div#editor-xtd-buttons a:link,
+div.joomla div.edit-article div#editor-xtd-buttons a:visited,
+div.joomla div.edit-article div#editor-xtd-buttons a:hover { color: #323232; }
+div.joomla div.morearticles { margin: 10px 0 20px; }
+div.joomla div.morearticles h3 {
+	font-weight:normal;
+	font-size: 1.4em!important;
+	margin-bottom: 6px;
+}
+/*
+ * pagination
+ */
+ 
+div.joomla div.pagination { text-align: right; }
+div.joomla div.pagination p.results {
+	font-size: 0.9em;
+	color :#999;
+}
+ul.pagination {
+	margin:15px auto;
+	padding:3px 0;
+	text-align:center;
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+ul.pagination li {
+	margin:0;
+	padding:0;
+	display:inline;
+	background:none;
+}
+ul.pagination a,
+ul.pagination li span {
+	padding:2px 5px;
+	font-size:0.83em;
+	text-transform:uppercase;
+}
+/*
+ * com_weblinks
+ * sub seletors: weblinks
+ */
+
+div.joomla div.weblinks fieldset { }
+div.joomla div.weblinks fieldset div { overflow: hidden; }
+div.joomla div.weblinks label.label-left {
+	display: block;
+	width: 150px;
+	float: left;
+}
+/*
+ * com_search
+ * sub seletors: search
+ */
+
+div.joomla div.search p.info {
+	margin: 0px;
+	color: #969696;
+	font-style: italic;
+}
+div.joomla div.search span.highlight { background: #ffffaa; }
+div.joomla div.search ol { padding-left: 0; }
+div.joomla div.search ol li {
+	border-bottom: 1px solid #eaeaea;
+	padding-top: 10px;
+}
+/*
+ * com_poll
+ * sub seletors: poll
+ */
+
+div.joomla div.poll fieldset { margin: 15px 0px 10px 0px; }
+/*
+ * com_contact
+ * sub seletors: contact
+ */
+
+div.joomla div.contact h1 {
+	margin-bottom: 0px;
+	font-size: 260%!important;
+	line-height: normal;
+	font-weight: normal;
+	border-bottom: 1px solid #e0e0e0;
+}
+div.joomla div.contact h2 {
+	margin-bottom: 30px;
+	font-size: 0.8em;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+}
+div.joomla div.contact div.image { float: right; }
+div.contact .image {
+	background: none;
+	padding: 0;
+}
+div.joomla div.contact table { margin-bottom: 10px; }
+div.joomla div.contact label.label-top { display: block; }
+/*
+ * com_user
+ * sub seletors: user
+ */
+
+div.joomla div.user label.label-left,
+div.joomla div.user span.label-left {
+	display: block;
+	width: 130px;
+	float: left;
+}
+/*
+ * mod_newsflash
+ */
+
+div.module-newsflash { overflow: hidden; }
+div.module-newsflash div.item {
+	padding-bottom: 15px;
+	overflow: hidden;
+}
+div.module-newsflash div.last { padding-bottom: 0px; }
+/*
+ * legacy Joomla styling only for third party components
+ */
+
+.contentheading,
+.componentheading {
+	margin: 0px 0px 0px 0px;
+	padding: 5px 0px 5px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 250%;
+	line-height: 100%;
+	font-weight: bold;
+	letter-spacing: -1px;
+}
+/*
+ * Joomla! system tooltips
+ */
+ 
+.tool-tip {
+	float: left;
+	padding: 5px;
+	max-width: 200px;
+	color: #323232;
+}
+.tool-title {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: bold;
+	margin-top: -15px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	background: url('../../system/images/selector-arrow.png') no-repeat;
+}
+.tool-text {
+	font-size: 100%;
+	margin: 0;
+}
+/*
+ * Buttons, readmore
+ */
+ 
+.back_button a,
+.button,
+.validate {
+	background: url('../images/menu_sprite.png') repeat-x 0 -61px;
+	height:26px!important;
+	line-height:26px!important;
+	margin:0;
+	cursor:pointer;
+	font-size:0.75em;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	padding: 0 12px;
+	color: #fff!important;
+	border: 1px solid #282828;
+}
+.back_button a:hover,
+.button:hover,
+.validate:hover {
+	background-position: 0 0;
+	border: 1px solid #e0e0e0;
+	color: #333!important;
+}
+/*
+ * Buttons, readmore
+ * - readon 
+ */
+ 
+a.readon, .gk_npro_readmore_inline {
+	background: url('../images/icons_sprite.png') no-repeat -7px -50px;
+	text-indent: 16px;
+}
+a.readon:hover,
+a.readon:active,
+a.readon:focus,
+.back_button a:hover,
+.button:hover,
+.validate:hover { text-decoration:none; }
+/* 
+ * Poll module
+ */
+ 
+h5.polltitle {
+	font-size: 1.0em;
+	margin: 10px 0;
+        background: url("/images/bg-green.png");
+        padding-left: 30px;
+        color: #FFFFFF;
+}
+.polllevel {
+	margin: 0;
+	line-height:2.5em;
+	border-bottom:1px dotted #ddd;
+}
+.polllevel label {
+	margin-left: 20px;
+	color: #fff;
+	font-style: italic;
+        font-weight: 700;
+}
+.pollbuttons {
+	clear: both;
+	margin: 20px auto 10px;
+	width: 190px;
+}
+.pollbuttons span,
+.form_buttons span.btn {
+	display: block;
+	float: left;
+	padding-left: 8px;
+	margin-right: 8px;
+}
+.pollbuttons .button,
+.form_buttons .button { padding: 0 12px 3px 12px; }
+/* 
+ * Menu suffix: _menu
+ */
+ 
+.moduletable_menu ul.menu li {
+	list-style:none;
+	margin-left:0;
+	border-bottom: 1px dotted #ddd;
+	background: none;
+}
+.moduletable_menu ul ul { padding: 0; }
+.moduletable_menu ul.menu li li {
+	margin-left:0px;
+	border-bottom:none;
+	border-top: 1px dotted #ddd;
+	padding-left: 20px;
+	background: url('../images/bullet_2x2.png') no-repeat 0 1.1em;
+}
+.moduletable_menu ul.menu li a,
+.moduletable_menu ul.menu li#current a {
+	line-height:210%;
+	display:block;
+	text-decoration:none;
+	margin: 0;
+	padding:1px 0;
+}
+.moduletable_menu ul.menu li a:hover { text-decoration:none; }
+/* 
+ * advertisement _text 
+ */
+ 
+div.bannerheader,
+div.bannerfooter {
+	font-style:italic;
+	font-size: 0.9em;
+}
+div.bannerheader {
+	font-weight: bold;
+	padding-top:6px;
+}
+div.banneritem { padding: 0; }
+div.bannerfooter {
+	margin-top: 10px;
+	text-align: right;
+}
+/* 
+ * search fix 
+ */
+
+.contentpaneopen #search_searchword {
+	width:150px;
+	margin: 0 5px;
+}
+select#ordering,
+select#limit { width:150px; }
+/* 
+ * messages 
+ */
+
+#system-message dd { padding:0; }
+#system-message dd ul { margin:0; }

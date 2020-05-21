@@ -1,0 +1,175 @@
+    @import url('http://fonts.googleapis.com/css?family=PT Sans:700&subset=Latin');
+    
+body{
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+#glassy_menu_module .menu{
+  float: left;
+  position: fixed;
+  top:50px;
+/*  left:-15px;*/
+  left:0px;
+  cursor: default;
+}
+
+
+
+
+
+      #glassy_menu_module .menu_left{
+        float: left;
+        background: url('../../Pics/green-left.png') no-repeat;
+        width: 15px;
+        height: 49px;
+      }
+      
+      #glassy_menu_module .menu_mid{
+        height:36px;
+        padding-top: 13px;
+        padding-right: 15px;
+        padding-left: 15px;
+        color: #FFF;
+        font-size: 18px;
+        text-shadow : 0px 1px 2px #333;
+        background: url('../../Pics/green-mid.png') repeat-x;
+        float: left;
+        text-decoration: none;
+      }
+      
+      #glassy_menu_module .menu_right{
+        float: left;
+        background: url('../../Pics/green-right.png') no-repeat;
+        width: 15px;
+        height: 49px;  
+      }
+    
+/*
+Level specific iteration
+*/
+
+
+#glassy_menu_module #menu1 .menu_left {
+  background: url('/modules/mod_GI_glassymenu/cache/227/b657073724dda1addf45d2ed6fe08997.png') no-repeat; 
+}
+
+#glassy_menu_module #menu1 .menu_mid{
+   background: url('/modules/mod_GI_glassymenu/cache/227/b9b4ac11c6edc80413e0fd810f8662ff.png') repeat-x;
+
+    color: #ffffff;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000ff) 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: inherit;
+  /*font chooser*/
+}
+
+#glassy_menu_module #menu1 .menu_right{
+  background: url('/modules/mod_GI_glassymenu/cache/227/d2f97e5b8fc0ceb204ddc54c47523976.png') no-repeat;
+}
+
+
+#glassy_menu_module #menu2 .menu_left {
+  background: url('/modules/mod_GI_glassymenu/cache/227/86fba80d0274ec1ca2e9441ad48a7117.png') no-repeat; 
+}
+
+#glassy_menu_module #menu2 .menu_mid{
+   background: url('/modules/mod_GI_glassymenu/cache/227/e29085db052914ccde0208ceb5bfb345.png') repeat-x;
+
+    color: #FFFFFF;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#glassy_menu_module #menu2 .menu_right{
+  background: url('/modules/mod_GI_glassymenu/cache/227/be8f107bb188f5527acc1a3ae0c8fc1f.png') no-repeat;
+}
+
+
+#glassy_menu_module #menu3 .menu_left {
+  background: url('/modules/mod_GI_glassymenu/cache/227/00750f1a3f410020b2cb37cb4c4e5286.png') no-repeat; 
+}
+
+#glassy_menu_module #menu3 .menu_mid{
+   background: url('/modules/mod_GI_glassymenu/cache/227/b1449c656247de6134638a7d3cda6551.png') repeat-x;
+
+    color: #FFFFFF;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#glassy_menu_module #menu3 .menu_right{
+  background: url('/modules/mod_GI_glassymenu/cache/227/31eb58cf2add2c6b073297dc463ab573.png') no-repeat;
+}
+
+
+#glassy_menu_module #menu4 .menu_left {
+  background: url('/modules/mod_GI_glassymenu/cache/227/46640fbf2d1fe16cbd38ed4db567c804.png') no-repeat; 
+}
+
+#glassy_menu_module #menu4 .menu_mid{
+   background: url('/modules/mod_GI_glassymenu/cache/227/c14d0cf9e1f801e9899576a354c2325d.png') repeat-x;
+
+    color: #FFFFFF;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#glassy_menu_module #menu4 .menu_right{
+  background: url('/modules/mod_GI_glassymenu/cache/227/bcfdd3317f411c171a49d9e4a5154b64.png') no-repeat;
+}
+
+
+#glassy_menu_module #menu5 .menu_left {
+  background: url('/modules/mod_GI_glassymenu/cache/227/8f4db5430532a786c58e24b8bb7355b3.png') no-repeat; 
+}
+
+#glassy_menu_module #menu5 .menu_mid{
+   background: url('/modules/mod_GI_glassymenu/cache/227/094a775c57802c9a2e4454036b4952b7.png') repeat-x;
+
+    color: #FFFFFF;
+  font-family: "PT Sans",Arial, Helvetica;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 14px;
+    text-shadow: #000000 1px 1px 1px;
+    text-decoration: none;
+  text-transform: none;
+  line-height: normal;
+  text-align: ;
+  /*font chooser*/
+}
+
+#glassy_menu_module #menu5 .menu_right{
+  background: url('/modules/mod_GI_glassymenu/cache/227/c7bcc10573961b405ad2aed7d6bd9fa2.png') no-repeat;
+}
